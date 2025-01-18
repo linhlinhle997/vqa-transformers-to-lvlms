@@ -31,9 +31,18 @@ For each approach, the general workflow is as follows:
 ## Results
 
 Each approach provides insights into the potential of different models for VQA tasks:
+
 - The **CNN + LSTM** model serves as a strong baseline for answering Yes/No questions.
+
+![CNN and LSTM](results/cnn_lstm.png)
+
 - The **ViT + RoBERTa** approach demonstrates the power of transformer-based models in combining vision and language understanding.
+
+![ViT and RooBERTa](results/vit_roberta.png)
+
 - The **LLaVA** model highlights the power of large vision-language models in performing VQA tasks with minimal fine-tuning.
+
+![LVLMS](results/lvlms.png)
 
 These models showcase the strength of transformer-based architectures for VQA, improving performance and providing a strong foundation for future applications in vision-language tasks.
 
